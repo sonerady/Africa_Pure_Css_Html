@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    transition: .5s;
+}
+
+
+
+.navbar .logo img{
+    width: 100px;
+    pointer-events: none;
+
+}
+
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-right: 35px;
+}
+
+nav li a{
+    color: #964b00;
+    font-weight: 600;
+    transition: .5s;
+}
+
+nav li a:hover{
+color:#633517;;
+}
+
+.icon{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+
+.container{
+
+    
+    margin: auto;
+    max-width: 1300px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+
+}
+
+nav{
+    margin-right: 35%;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+
+}
+
+
+.col-2{
+    flex-basis: 50%;
+    margin-left: 50px;
+}
+
+.col-2 .box{
+    width: 500px;
+    height: 500px;
+    margin-top: -60x;
+    position: relative;
+
+}
+
+
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: screen;
+    pointer-events: none;
+    
+}
+
+.box video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.col-2 h1{
+    font-size: 4rem;
+    color: #964b00;
+}
+
+.col-2 span{
+    font-size: 4rem;
+    color: #964b00;
+    font-weight: 900;
+    margin-left: 116px;
+    display: inline-block;
+    line-height: 10px;
+}
+
+.col-2 p{
+    margin: 15px 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.col-2 .btn-1{
+    display: inline-block;
+    color:white;
+    background-color: #a5531d;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 70%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-1:hover{
+    background-color: #633517;
+}
